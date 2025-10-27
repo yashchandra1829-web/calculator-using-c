@@ -3,7 +3,7 @@
 int main(){
     int a,b;
     char op;
-    float sum;
+    int sum;
     printf("Entre the first number : \n ");
     scanf("%d",&a);
     printf("Enter the operator(+,-,*,/) : \n");
@@ -32,7 +32,7 @@ int main(){
             printf("Undefined");
         }
         else{
-            sum = a / b;
+            sum =(float) a / b;
             printf("The division is : %f",sum);
         }
         break;
