@@ -40,5 +40,8 @@ int main(){
         default:
         printf("Invalid Operator!!");
     }
+    printf("\nPress Enter to exit...");
+    fflush(stdin);
+    getchar();
     return 0;
 }
