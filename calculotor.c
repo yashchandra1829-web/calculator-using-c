@@ -33,7 +33,7 @@ int main(){
         }
         else{
             sum = a / b;
-            printf("The division is : %d",sum);
+            printf("The division is : %f",sum);
         }
         break;
         
